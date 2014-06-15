@@ -1,0 +1,116 @@
+# ### messages.yml ###
+# Note! If you are editing this file, set auto-update to false. 
+# If auto-update is left true, all changed values will be overwritten.
+# 
+# When auto-update is false, new values will be added, but existing ones won't
+# be touched. When there is a new version of existing values available, SkyWars
+# will create a 'messages.new.yml' file containing the updated messages, that
+# you are free to copy from.
+# 
+# The messages-version key is used to keep track of when updated messages are
+# available, no matter what the setting of auto-update is. The messages-locale is
+# also automatic, you should edit the locale in main-config.yml if you want to change
+# it.
+messages-version: 4
+messages-locale: pt
+auto-update: true
+commands.join.description: Entrou na fila para o proximo jogo
+commands.join.confirmation: '&3Voce entrou na fila de espera.'
+commands.join.already-queued: '&4Voce ja esta na fila de espera.'
+commands.join.in-game: '&4Voce nao pode entrar agora, voce ja esta em um jogo.'
+commands.leave.description: Sair da fila de espera ou do jogo atual
+commands.leave.removed-from-queue: '&3Saiu da fila de espera.'
+commands.leave.removed-from-game: '&3Fugiu do jogo.'
+commands.leave.not-in-any: '&4Nao esta na fila de espera.'
+commands.setlobby.description: Definir posicao do lobby
+commands.setlobby.confirmation: '&3Agora o lobby passa a ser onde voce esta.'
+commands.setlobby.in-game: '&4Voce nao pode definir o Lobby, voce esta jogando.'
+commands.setportal.description: Coloca um portal onde voce esta
+commands.setportal.confirmation: '&3Coloca um portal onde voce esta.'
+commands.setportal.in-game: '&4Voce nao pode definir o Portal, voce esta jogando.'
+commands.delportal.description: Remove o ultimo portal definido
+commands.delportal.confirmation: '&3Portal removido em %s'
+commands.delportal.error-no-portals: '&4nao existem portais definidos'
+commands.cancel.description: Cancela um jogo com o ID a ser definido
+commands.cancel.argument-not-integer: '&c%s&4 Nao e um numero inteiro'
+commands.cancel.no-games-with-id: '&4Nao existem jogos com o ID &c%s&4.'
+commands.cancel.confirmation: '&3Cancelando o jogo &2%s&3.'
+commands.status.description: Ver as estatisticas dos jogos em andamento
+commands.status.header: '&9 -- &2Estatisticas SkyWars&9 --'
+commands.status.in-queue: '&3Em espera: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2Arenas em jogo&9 --'
+commands.version.description: Versao do plugin
+commands.version.output: '&3%s versao &2%s &3/ &2%s&3. feito por &2Dabo Ross'
+commands.lobby.description: Te teleporta para o lobby
+commands.lobby.confirmation: '&3Teleportando para o lobby.'
+commands.lobby.in-game: '&4Nao pode ir para lobby enquanto estiver em jogo.'
+commands.cancelall.description: Cancela todos os jogos em andamento.
+commands.cancelall.canceling-game: '&3Cancelando jogo &2%s'
+commands.report.description: Cria um report e envia para gist.github.com, depois recebe um link.
+commands.report.start: '&3Recolhendo dados...'
+commands.report.output: '&3Report: &2%s'
+commands.forcestart.description: Forca o inicio do jogo com player na fila de espera
+commands.forcestart.not-enough-players: '&4Sao necessario pelomenos 2 players na fila para comecar o jogo.'
+commands.kit.description: Seleciona o kit para o proximo jogo
+commands.kit.no-kits-available: '&4Nao ha kits que voce possa usar.'
+commands.kit.unavailable-kits: '&3Kits indisponiveis: &2%s'
+commands.kit.unknown-kit: '&4Kit desconhecido &c%s&4.'
+commands.kit.not-enough-money: '&4Voce nao tem %1$s para comprar &c%2$s&4. Voce precisa de &c%3$s&4 mais %1$s.'
+commands.kit.chose-kit: '&3Agora voce esta usando o kit &2%s&3.'
+commands.kit.chose-kit-with-cost: '&3Agora voce esta usando o kit &2%1$s&3. Este kit vai te custar &2%2$s&3 por partida.'
+commands.kit.how-to-remove: '&3Voce pode usar &2/sw kit remove&3 para parar de usar este kit.'
+commands.kit.removed-kit: '&3Voce nao esta mais usando kits.'
+commands.kit.no-kit-removed: '&3Voce nao tinha nenhum kit para remover.'
+commands.kit.current-kit: '&3Voce esta usando o kit &2%s&3.'
+commands.kit.current-kit-with-cost: '&3Voce esta usando o kit &2%1$s&3. Este kit vai te custar &2%2$s&3 por partida.'
+commands.kit.no-access: '&4 Voce nao pode usar este kit &c%s&4.'
+setup-commands.start.description: Comeca a configurar uma nova arena e apaga alguma antes que nao tenha sido guardada.
+setup-commands.start.argument-name: Nome da arena
+setup-commands.start.confirmation: '&3Configuracao da arena &2%s&3 iniciada.'
+setup-commands.start.one-argument: '&4Informe um argumento.'
+setup-commands.setpos1.description: Coloque a primeira posicao da arena, o que conta e o topo.
+setup-commands.setpos1.pos2-in-other-world: '&4Removendo a posicao 2 porque esta
+  em outro mundo.'
+setup-commands.setpos1.confirmation: '&3Posicao 1 colocada com sucesso.'
+setup-commands.setpos2.description: Coloca a segunda posicao da arena, o que conta e o topo.
+setup-commands.setpos2.pos1-in-other-world: '&4Removendo a posicao 1 porque esta
+  em um mundo diferente.'
+setup-commands.setpos2.confirmation: '&3Posicao 2 colocada com sucesso.'
+setup-commands.addspawn.description: Adiciona um novo spawn de jogadores onde voce esta
+setup-commands.addspawn.confirmation: '&3Adicionado novo sapwn de jogadores em &2%s&3.'
+setup-commands.save.description: Salva a configuracao da arena
+setup-commands.save.saving: '&3Salvando a arena.'
+setup-commands.save.saved: '&3A arena foi salva com sucesso.'
+top-commands.main.description: Comando principal para o SkyWars
+top-commands.setup.description: Comando de configuracao para o SkyWars
+generic-command-message.too-many-parameters: '&4Muitos parametros.'
+generic-command-message.not-enough-parameters: '&4Sem parametros suficientes.'
+messages.removed-from-queue-because-death: '&3Voce saiu da fila de espera porque voce morreu.'
+messages.no-clue-what-command: '&4O SkyWars nao faz ideia do que seja &c%s&4.'
+messages.not-fully-enabled: '&4Nao esta completamente ativado.'
+messages.economy-reward.win: '&3Voce ganhou &2%s&3 por vencer no SkyWars.'
+messages.economy-reward.kill: '&3Voce ganhou &2%s&3 por ter matado &2%s&3.'
+messages.kits.kit-list: '&3Kits disponiveis: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%s &8(&3custo: &2%s&8)'
+messages.kits.choose-a-kit: '&3Use &2/sw kit &8<&2Name&8>&3 para escolher um kit.'
+messages.kits.applied-kit: '&3Kit &2%s&3 ativado nesta partida.'
+messages.kits.applied-kit-with-cost: '&3Kit &2%s&3 ativado nesta partida, que te custou &3%2$s&2.'
+messages.kits.not-enough-money: '&3Voce nao tem mais dinheiro para manter o kit &2%s&3 ativado.'
+messages.in-game: '&4Voce nao pode fazer isso enquanto estiver em jogo.'
+messages.report-disabled: '&4Reporting has been disabled in &cmain-config.yml&4. Remove
+  the &c''disable-report: true''&4 line to enable reporting. Note that when enabled,
+  SkyWars reports ONLY when this command is used, never in the background.'
+game.death.killed-by-player-and-void: '&2%s&a empurrou &2%s&a ate cair no fim do mundo!'
+game.death.killed-by-void: '&2%s&a fez BUG JUMP sem cordas e caiu no fim do mundo!'
+game.death.killed-by-player: '&2%s&a matou &2%s&a!'
+game.death.killed-by-environment: '&2%s&a foi morto!'
+game.death.forfeited-while-attacked: '&2%s&a foi forcado a pagar uma multa por &2%s&a!'
+game.death.forfeited: '&2%s&a pagou uma multa!'
+game.winning.single-won: '&2%s&a ganhou o SkyWars!'
+game.winning.multi-won: '&2%s&a ganharam o SkyWars!'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.none-won: '&aO SkyWars terminou sem vencedores.'
+game.starting.game-starting: '&aO jogo vai comecar com &2%s&a!'
+game.starting.game-starting-comma: '&a, &2'
