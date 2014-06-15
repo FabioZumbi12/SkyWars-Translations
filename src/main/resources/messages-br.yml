@@ -12,7 +12,7 @@
 # also automatic, you should edit the locale in main-config.yml if you want to change
 # it.
 messages-version: 4
-messages-locale: pt
+messages-locale: br
 auto-update: true
 commands.join.description: Entrou na fila para o proximo jogo
 commands.join.confirmation: '&3Voce entrou na fila de espera.'
