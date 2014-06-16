@@ -14,14 +14,14 @@
 messages-version: 4
 messages-locale: br
 auto-update: true
-commands.join.description: Entrou na fila para o proximo jogo
-commands.join.confirmation: '&3Voce entrou na fila de espera.'
-commands.join.already-queued: '&4Voce ja esta na fila de espera.'
+commands.join.description: Entrar na fila para o proximo jogo
+commands.join.confirmation: '&3Voce entrou na fila de espera do SkyWars.'
+commands.join.already-queued: '&4Voce ja esta na fila de espera do SkyWars.'
 commands.join.in-game: '&4Voce nao pode entrar agora, voce ja esta em um jogo.'
-commands.leave.description: Sair da fila de espera ou do jogo atual
-commands.leave.removed-from-queue: '&3Saiu da fila de espera.'
+commands.leave.description: Sair da fila de espera ou do jogo atual do SkyWars
+commands.leave.removed-from-queue: '&3Voce saiu da fila de espera do SkyWars.'
 commands.leave.removed-from-game: '&3Fugiu do jogo.'
-commands.leave.not-in-any: '&4Nao esta na fila de espera.'
+commands.leave.not-in-any: '&4Voce nao esta na fila de espera do SkyWars.'
 commands.setlobby.description: Definir posicao do lobby
 commands.setlobby.confirmation: '&3Agora o lobby passa a ser onde voce esta.'
 commands.setlobby.in-game: '&4Voce nao pode definir o Lobby, voce esta jogando.'
@@ -107,7 +107,7 @@ game.death.killed-by-void: '&2%s&a fez BUG JUMP sem cordas e caiu no fim do mund
 game.death.killed-by-player: '&2%s&a matou &2%s&a!'
 game.death.killed-by-environment: '&2%s&a foi morto!'
 game.death.forfeited-while-attacked: '&2%s&a foi forcado a pagar uma multa por &2%s&a!'
-game.death.forfeited: '&2%s&a pagou uma multa!'
+game.death.forfeited: '&2%s&a foi forcado a sair!'
 game.winning.single-won: '&2%s&a ganhou o SkyWars!'
 game.winning.multi-won: '&2%s&a ganharam o SkyWars!'
 game.winning.multi-won-comma: '&a, &2'
